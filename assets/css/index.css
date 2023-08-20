@@ -9,7 +9,7 @@ main {
 
 #quienes-somos {
     height: 20%;
-    margin: 1% 0;
+    margin: 3% 0;
 }
 
 .quienes-somos {
@@ -21,8 +21,6 @@ main {
     padding: 5% 3%;
     text-align: justify;
     font-size: x-large;
-    
-
 }
 
 .quienes-somos img {
@@ -31,11 +29,25 @@ main {
 }
 
 #que-hacemos {
-    border: rgb(196, 69, 69) solid;
     height: 20%;
-    margin-bottom: 1%; 
+    margin-bottom: 3%; 
 }
 
+.que-hacemos {
+    height: 99%;
+    display: flex;
+}
+
+.que-hacemos p {
+    padding: 5% 3%;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.que-hacemos img {
+    width: 90%;
+    padding: 3%;
+}
 #sobre-nosotro {
     border: rgb(196, 69, 69) solid;
     height: 57.4%;

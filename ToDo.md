@@ -4,12 +4,12 @@
     * IMG de background √
     * Creacion de NavBar √
     * CSS de NavBar √
-3. Section Que Somos
-    * Insertado de IMG
-    * Desarrolo de Parrafo
-4. Section Que Hacemos
-    * Insertado de IMG
-    * Desarrolo de Parrafo
+3. Section Que Somos √
+    * Insertado de IMG √
+    * Desarrolo de Parrafo √
+4. Section Que Hacemos √
+    * Insertado de IMG √
+    * Desarrolo de Parrafo √
 5. Section Quienes Somos
     * Creación de Article
         - Article Braulio

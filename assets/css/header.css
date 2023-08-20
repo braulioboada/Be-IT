@@ -7,9 +7,35 @@ header {
 
 .box {
     padding: 1% 0 1% 15%;
+    position: relative;
+    display:inline;
 }
 
 .box img {
     width: 30%;
     height: 30%;
   }
+
+nav {
+    position:relative;
+    right: -60%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 1% 1%;
+    text-shadow: 2px 2px 5px #87d1e4,-2px 2px 5px #87d1e4,2px -2px 5px #87d1e4,-2px -2px 5px #87d1e4;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.3vW;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #5b38d8;
+    text-decoration: underline;
+}

@@ -1,5 +1,15 @@
 header {
-    border: black solid;
-    height: 150px;
-    margin-bottom: 15px;
+    background: url(../img/header.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.box {
+    padding: 1% 0 1% 15%;
+}
+
+.box img {
+    width: 30%;
+    height: 30%;
+  }

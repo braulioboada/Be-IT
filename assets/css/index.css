@@ -1,5 +1,51 @@
+body {
+    background: linear-gradient(#b8faff,#42abb3, #0fa1ac);
+}
 main {
+
     border: black solid;
     height: 2000px;
     margin: 15px 0;
+}
+
+#que-somos {
+    border: rgb(196, 69, 69) solid;
+    height: 20%;
+    margin: 1% 0;
+}
+
+#que-hacemos {
+    border: rgb(196, 69, 69) solid;
+    height: 20%;
+    margin-bottom: 1%; 
+}
+
+#quienes-somos {
+    border: rgb(196, 69, 69) solid;
+    height: 57.4%;
+ 
+}
+
+.Braulio {
+    border: rgb(69, 196, 196) solid;
+    height: 23.5%;
+    margin: 1%; 
+}
+
+.Anioska{
+    border: rgb(69, 196, 196) solid;
+    height: 23.5%;
+    margin: 0% 1% 1% 1%; 
+}
+
+.Dayana {
+    border: rgb(69, 196, 196) solid;
+    height: 23.5%;
+    margin: 0% 1% 1% 1%; 
+}
+
+.Luis {
+    border: rgb(69, 196, 196) solid;
+    height: 23.4%;
+    margin: 0% 1%;
 }

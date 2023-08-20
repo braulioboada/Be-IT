@@ -18,7 +18,9 @@ header {
 
 nav {
     position:relative;
-    right: -60%;
+    text-align: right;
+    padding-right: 5%;
+    padding-bottom: 1%;
 }
 
 nav li{

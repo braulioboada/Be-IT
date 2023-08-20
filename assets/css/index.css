@@ -1,17 +1,33 @@
 body {
     background: linear-gradient(#b8faff,#42abb3, #0fa1ac);
+    width: 100%;
 }
 main {
-
-    border: black solid;
     height: 2000px;
     margin: 15px 0;
 }
 
 #quienes-somos {
-    border: rgb(196, 69, 69) solid;
     height: 20%;
     margin: 1% 0;
+}
+
+.quienes-somos {
+    height: 99%;
+    display: flex;
+}
+
+.quienes-somos p {
+    padding: 5% 3%;
+    text-align: justify;
+    font-size: x-large;
+    
+
+}
+
+.quienes-somos img {
+    width: 40%;
+    padding: 3%;
 }
 
 #que-hacemos {

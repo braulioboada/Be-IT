@@ -1,3 +1,5 @@
 main {
-    background-color: blue;
+    border: black solid;
+    height: 2000px;
+    margin: 15px 0;
 }

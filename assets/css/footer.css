@@ -1,3 +1,5 @@
 footer {
-    background-color: aqua;
+    border: black solid;
+    height: 150px;
+    margin-top: 15px;
 }

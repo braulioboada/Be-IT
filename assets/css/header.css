@@ -1,3 +1,5 @@
 header {
-    background-color: aquamarine;
+    border: black solid;
+    height: 150px;
+    margin-bottom: 15px;
 }

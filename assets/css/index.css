@@ -3,7 +3,7 @@ body {
     width: 100%;
 }
 main {
-    padding: 0 2%;
+    padding: 0 4%;
 }
 .quienes-somos {
     display: flex;
@@ -19,15 +19,14 @@ h1{
 }
 
 p {
-    padding: 5% 3%;
+    padding: 5% 5%;
     text-align: justify;
     font-size: x-large;
     margin-top: 2%;
 }
 
 .imagenes{
-    width: 90%;
-    padding: 3%;
+    width: 50%;
 }
 
 .que-hacemos {
@@ -44,16 +43,14 @@ h3{
     text-align: justify;
     font-size: 2.5vw;
     font-style: italic;
-    margin: 5% 0 0 3%;
+    margin: 5% 0 0 5%;
 }
 .Mujer {
-    width: 50%;
-    padding: 0 3%;
+    width: 30%;
 }
 
 .hombre {
-    width: 30%;
-    padding: 0 5%;
+    width: 20%;
 }
 
 .sobre-nosotro article {
@@ -63,5 +60,5 @@ h3{
 
 .titulo-artile {
     text-align: end;
-    margin-right: 3%;
+    margin-right: 5%;
 }

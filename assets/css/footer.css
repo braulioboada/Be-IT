@@ -1,5 +1,31 @@
 footer {
-    border: black solid;
-    height: 150px;
-    margin-top: 15px;
+    background: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p {
+    padding: 1% 2%;
+    text-align: center;
+    color: aliceblue;
+
+}
+footer ul{
+    position: relative;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+.linkedin {
+    width: 2%;
+    margin-bottom: 1%;
+}
+
+.github {
+    width: 2%;
+    margin-bottom: 1%;
 }

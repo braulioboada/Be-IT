@@ -67,7 +67,23 @@ h3{
     margin-right: 5%;
 }
 
+.subir {
+    position: fixed;
+    bottom: 30%; /* Ajusta esta distancia para dejar espacio entre el enlace y el borde inferior */
+    right: 30%; /* Ajusta esta distancia para dejar espacio entre el enlace y el borde derecho */
+    background-color:none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 5px;
+    height: 5px;
+    display: none;
+}
+
+
 @media only screen and (max-width: 500px) and (min-width: 341px){
+
     .quienes-somos {
         display: block;
     }
@@ -81,7 +97,7 @@ h3{
     }
 
     .imagenes1{
-        width: 100%;
+        width:100%;
     }
 
     .imagenes2{

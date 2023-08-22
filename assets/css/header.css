@@ -26,6 +26,7 @@ nav {
 nav li{
     display: inline;
     margin: 0 0 1% 1%;
+    color: #ffffff
     text-shadow: 2px 2px 5px #87d1e4,-2px 2px 5px #87d1e4,2px -2px 5px #87d1e4,-2px -2px 5px #87d1e4;
 }
 

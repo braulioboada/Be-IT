@@ -25,7 +25,7 @@ nav {
 
 nav li{
     display: inline;
-    margin: 0 0 1% 1%;
+    margin: 0 0 2% 1%;
     text-shadow: 2px 2px 5px #3c7481,-2px 2px 5px #3c7481,2px -2px 5px #3c7481,-2px -2px 5px #3c7481;
 }
 
@@ -40,4 +40,27 @@ nav a{
 nav a:hover{
     color: #5b38d8;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 341px){
+    
+    .box{
+        width: auto;
+    }
+    .box img {
+        text-align: center;
+        position: static;
+        width: 50%;
+        
+        margin: 5% 0 5% 14%;
+    }
+    nav{
+        position:relative;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    nav a {
+        font-size: 3.5vw;
+    }
 }

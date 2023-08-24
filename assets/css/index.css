@@ -69,16 +69,15 @@ h3{
 
 .subir {
     position: fixed;
-    bottom: 30%; /* Ajusta esta distancia para dejar espacio entre el enlace y el borde inferior */
-    right: 30%; /* Ajusta esta distancia para dejar espacio entre el enlace y el borde derecho */
+    bottom: 2%; /* Ajusta esta distancia para dejar espacio entre el enlace y el borde inferior */
+    right: -35%; /* Ajusta esta distancia para dejar espacio entre el enlace y el borde derecho */
     background-color:none;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    width: 5px;
-    height: 5px;
-    display: none;
+    opacity: .5;
+    
 }
 
 
@@ -118,5 +117,9 @@ h3{
 
     h3 {
         font-size: 5vw;;
+    }
+    .subir{
+        text-align: center;
+        right: -65%
     }
 }

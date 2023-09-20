@@ -1,95 +1,179 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <title>Be IT</title>
 </head>
+
 <body>
-    <header>
-        <div id="box" class="box">
-            <img src="assets/img/Logo.svg" alt="">
-            <nav>
-                <ul>
-                    <li><a href="#quienes-somos">Quienes Somos</a></li>
-                    <li><a href="#que-hacemos">Que Hacemos</a></li>
-                    <li><a href="#sobre-nosotro">Sobre Nosotros</a></li>
-                </ul>
-            </nav>
+  <header class="bg-black">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark bg-opacity-50 bg-info" >
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">
+          <img src="assets/img/Logo.svg" alt="Logo" width="30" height="30" class="d-inline-block logo align-text-top">
+          Be IT
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#quienes_somos">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#que-hacemos">Que Hacemos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Sobre Nosotros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#pills-home-tab">Braulio Boada</a></li>
+                <li><a class="dropdown-item" href="#pills-profile-tab">Another</a></li>
+                <li><a class="dropdown-item" href="#pills-contact-tab">Another</a></li>
+                <li><a class="dropdown-item disabled" aria-disabled="true">Another</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">Contactanos</a>
+            </li>
+          </ul>
         </div>
-    </header>
-
-    <main>
-        <section id="quienes-somos" class="quienes-somos">
-            <div class="texto">
-                <h1>Quienes Somos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ea porro asperiores maiores placeat necessitatibus voluptate at mollitia, voluptatem aliquam quas iste tempora, aperiam, animi laudantium deleniti natus explicabo suscipit. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, beatae. Provident earum adipisci sunt dolor, dignissimos perspiciatis illum. Modi esse atque ut enim dignissimos ipsa deleniti amet similique eligendi dolore.</p>
-            </div>
-            <img src="assets/img/Quienes Somos.svg" class="imagenes1">
-        </section>
-
-        <section id="que-hacemos" class="que-hacemos">
-            <img src="assets/img/Que Hacemos.svg" class="imagenes2">
-            <div class="texto">
-                <h2>Que Hacemos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ea porro asperiores maiores placeat necessitatibus voluptate at mollitia, voluptatem aliquam quas iste tempora, aperiam, animi laudantium deleniti natus explicabo suscipit. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, beatae. Provident earum adipisci sunt dolor, dignissimos perspiciatis illum. Modi esse atque ut enim dignissimos ipsa deleniti amet similique eligendi dolore.</p>
-            </div>
-        </section>
-
-        <section id="sobre-nosotro" class="sobre-nosotro">
-            <h2>Sobre Nosotros</h2>
-            <article>
-                <div class="texto">
-                    <h3>Hombre</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ea porro asperiores maiores placeat necessitatibus voluptate at mollitia, voluptatem aliquam quas iste tempora, aperiam, animi laudantium deleniti natus explicabo suscipit.</p>
-                </div>
-                <img src="assets/img/Hom Quienes Somos.svg" class="hombre">
-            </article>
-
-            <article>
-                <img src="assets/img/Muj Quienes Somos.svg" class="Mujer">
-                <div class="texto">
-                    <h3 class="titulo-artile">Mujer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ea porro asperiores maiores placeat necessitatibus voluptate at mollitia, voluptatem aliquam quas iste tempora, aperiam, animi laudantium deleniti natus explicabo suscipit.</p>
-                </div>
-            </article>
-
-            <article>
-                <div class="texto">
-                    <h3>Mujer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ea porro asperiores maiores placeat necessitatibus voluptate at mollitia, voluptatem aliquam quas iste tempora, aperiam, animi laudantium deleniti natus explicabo suscipit.</p>
-                </div>
-                <img src="assets/img/Muj Quienes Somos.svg" class="Mujer">
-            </article>
-
-            <article>
-                <img src="assets/img/Hom Quienes Somos.svg" class="hombre">
-                <div class="texto">
-                    <h3 class="titulo-artile">Hombre</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ea porro asperiores maiores placeat necessitatibus voluptate at mollitia, voluptatem aliquam quas iste tempora, aperiam, animi laudantium deleniti natus explicabo suscipit.</p>
-                </div>
-            </article>
-
-        </section>
-
-        <div class="subir">
-            <a href="#box"><img src="assets/img/flecha hacia arriba.png" height="8%" width="8%"></a>
+      </div>
+    </nav>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/header.jpg" class="d-block w-100 h-25 opacity-50" alt="...">
+          <div class="carousel-caption d-none d-md-block mb-5">
+            <h1 class="text-end mb-5">"Un Código a la Vez"</h1>
+            <p class="text-end fs-5 mb-5">"En el mundo IT, cada línea de código es un paso hacia el futuro. <br> ¡Únete a nosotros y juntos construiremos la próxima era digital!"</p>
+          </div>
         </div>
+        <div class="carousel-item">
+          <img src="assets/img/header1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block mb-5">
+            <h1 class="text-start mb-5 fs-1 text-dark sombra">Probando<br>Innovando<br>Garantizando</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/header2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-1 text-dark sombra">"Codeando Ideas, Creando Futuros"</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon opacity-25" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon opacity-25" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <main class="my-5 mx-3">
+    <section class="container-fluid mb-5" id="quienes_somos">
+      <h1 class="card-title text-center mb-5">Quienes Somos</h1>
+      <p class="card-text fs-5 text-center mb-5">
+        "Somos un grupo de amigos que compartimos una misma pasión: el mundo de la tecnología, con un enfoque particular en testing y programación. Decidimos unir nuestras habilidades y conocimientos para formar un equipo sólido y comprometido.
+        <br><br>
+        La colaboración entre nosotros es algo especial. Cada uno aporta su conjunto único de habilidades al equipo, lo que crea un entorno en el que constantemente nos estamos enseñando y aprendiendo mutuamente. Nos apasiona la mejora continua y nos sumergimos en los desafíos que enfrentamos en la creación y prueba de software.
+        <br><br>
+        No nos quedamos solo en nuestros proyectos; también sentimos la responsabilidad de compartir lo que sabemos con otros. Organizamos sesiones de enseñanza y talleres para transmitir nuestros conocimientos y ayudar a otros a crecer en este campo. Creemos que la educación y la colaboración son esenciales para avanzar en la industria de la tecnología.
+        <br><br>
+        En resumen, somos amigos unidos por nuestra pasión por la tecnología y nuestro deseo de marcar una diferencia tanto en el desarrollo de software como en la formación de futuros profesionales en este apasionante campo."
+      </p>
+    </section>
 
-    </main>
+    <section class="my-5" id="que-hacemos">
+      <h2 class="text-center my-5">Que Hacemos</h2>
+      <div class="card-group my-5">
+        <div class="card">
+          <img src="assets/img/Barberia1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span class="badge text-bg-light">Cursos</span>
+            <span class="badge text-bg-success">Enseñanza</span>
+            <h5 class="card-title">Cursos</h5>
+            <p class="card-text">Nuestros programas están diseñados para brindar a los estudiantes habilidades sólidas en la creación de pruebas, garantizando la calidad y confiabilidad del software que desarrollan. Cubrimos técnicas avanzadas de testing, estrategias de automatización y buenas prácticas de codificación para optimizar el proceso de desarrollo. </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/Quienes Somos.svg" class="card-img-top p-3 mt-4" alt="...">
+          <div class="card-body">
+            <span class="badge text-bg-info">Testing</span>
+            <span class="badge text-bg-primary">Automatización</span>
+            <h5 class="card-title">Testing</h5>
+            <p class="card-text">
+              Nuestro enfoque incluye la creación de casos de prueba, la ejecución de pruebas manuales y automáticas, el análisis de resultados y la documentación detallada de los hallazgos. Buscamos no solo detectar problemas, sino entender su origen y proponer soluciones eficientes. Trabajamos en colaboración con los equipos de desarrollo para corregir y mejorar el software, promoviendo la entrega de un producto fiable, eficiente y de alta calidad a nuestros clientes..</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/Que Hacemos.svg" class="card-img-top p-3" alt="...">
+          <div class="card-body">
+            <span class="badge text-bg-danger">JavaScrip</span>
+            <span class="badge text-bg-warning">Java</span>
+            <span class="badge text-bg-dark">Base de Datos</span>
+            <h5 class="card-title">Desarrollo Web</h5>
+            <p class="card-text">
+              Nos especializamos en el diseño y la implementación de código, utilizando lenguajes de programación y frameworks modernos. También nos centramos en la arquitectura del software, asegurando que nuestros productos sean escalables, seguros y de alto rendimiento. Buscamos constantemente optimizar el código para mejorar la experiencia del usuario y la eficiencia del sistema.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-          
-        <p>Create by Braulio Boada</p>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/braulio-boada/" target="_blank"><img src="assets/img/linkedin.svg" class="linkedin"></a></li>
-            <li><a href="https://github.com/braulioboada/" target="_blank"><img src="assets/img/github.svg" class="github"></a></li>
+
+    <section id="sobre-nosotro" class="sobre-nosotro">
+      <h2 class="text-center">Sobre Nosotros</h2>
+      <div>
+        <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Braulio Boada</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Another</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Another</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+              type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Another</button>
+          </li>
         </ul>
-        
-    </footer>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">...</div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+            tabindex="0">
+            ...</div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+            tabindex="0">
+            ...</div>
+          <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+            tabindex="0">...</div>
+        </div>
+      </div>
+
+
+    </section>
+  </main>
 </body>
+<footer>
+
+</footer>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
 </html>

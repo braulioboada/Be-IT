@@ -5,3 +5,7 @@ body {
 .sombra {
     text-shadow: 2px 2px 5px #ffffff ,-2px 2px 5px #ffffff,2px -2px 5px #ffffff,-2px -2px 5px #ffffff;
 }
+.fondoNav {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,133,253,0.9248074229691877) 100%);
+}

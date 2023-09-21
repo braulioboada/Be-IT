@@ -1,11 +1,17 @@
 body {
-    background: linear-gradient(#b8faff,#42abb3, #0fa1ac);
+    background: rgb(106,122,147);
+    background: linear-gradient(0deg, rgba(106,122,147,1) 0%, rgba(95,160,179,1) 50%, rgba(28,218,255,1) 100%);;
 }
 
 .sombra {
     text-shadow: 2px 2px 5px #ffffff ,-2px 2px 5px #ffffff,2px -2px 5px #ffffff,-2px -2px 5px #ffffff;
 }
 .fondoNav {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,133,253,0.9248074229691877) 100%);
+    background: rgb(0,213,255);
+    background: linear-gradient(0deg, rgba(0,213,255,0.9220063025210083) 0%, rgba(63,155,182,0.938813025210084) 50%, rgba(25,47,82,0.9136029411764706) 100%);
+}
+
+.fondoCards {
+    background: rgb(12,217,218);
+    background: radial-gradient(circle, rgba(12,217,218,0.9108018207282913) 0%, rgba(148,190,233,0.958420868347339) 81%);
 }

@@ -1,7 +1,7 @@
-body {
+/*body {
     background: rgb(106,122,147);
     background: linear-gradient(0deg, rgba(106,122,147,1) 0%, rgba(95,160,179,1) 50%, rgba(28,218,255,1) 100%);;
-}
+}*/
 
 .sombra {
     text-shadow: 1px 1px 4px #ffffff ,-1px 1px 4px #ffffff,1px -1px 4px #ffffff,-1px -1px 4px #ffffff;
@@ -13,5 +13,6 @@ body {
 
 .fondoCards {
     background: rgb(12,217,218);
-    background: radial-gradient(circle, rgba(12,217,218,0.9108018207282913) 0%, rgba(148,190,233,0.958420868347339) 81%);
+    background: radial-gradient(circle, rgba(12,217,218,0.7763480392156863) 0%, rgba(148,190,233,0.6082808123249299) 56%);
+
 }

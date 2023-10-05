@@ -378,7 +378,7 @@
   <footer class="fondoNav">
     <div class="container text-center text-light">
       <div class="row align-items-center">
-        <div class="col">
+        <div class="col" id="preguntasFrecuentes">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#faqs"
           data-bs-whatever="@mdo">Preguntas Frecuentes</button>
         <div class="modal fade" id="faqs" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -391,44 +391,62 @@
               </div>
               <div class="modal-body">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Accordion Item #1
+                  <div class="accordion-item fondoCards text-black mb-5">
+                    <h2 class="accordion-header ">
+                      <button class="accordion-button collapsed fondoNav text-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        ¿Que Tipo de Cursos ofrecemos?
                       </button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      <div class="accordion-body">Nuestros cursos están diseñados para ofrecer una experiencia dinámica y enriquecedora en el campo de la tecnología de la información (IT). Impartidos de manera completamente online, estos cursos proporcionan flexibilidad para que los estudiantes puedan aprender a su propio ritmo y desde cualquier ubicación.
+                        <br><br>
+                        Nos centramos en abordar las últimas tendencias, tecnologías y habilidades relevantes en el ámbito de IT. Nuestros materiales de enseñanza están cuidadosamente diseñados para brindar una comprensión profunda de conceptos clave, así como para fomentar la aplicación práctica de estos conocimientos en entornos laborales reales.
+                        <br><br>
+                        Además, promovemos la interactividad y la participación activa de los estudiantes a través de plataformas educativas modernas. Esto les permite interactuar con instructores expertos y otros estudiantes, colaborar en proyectos y realizar evaluaciones que les ayudarán a medir su progreso y comprensión del material.
+                        <br><br>
+                        Al optar por nuestros cursos, los estudiantes pueden esperar adquirir habilidades fundamentales y avanzadas en IT, preparándolos para enfrentar los desafíos y demandas de la industria en constante evolución. Estamos comprometidos a brindar una educación de calidad que impulse el crecimiento profesional y proporcione oportunidades significativas en el vasto mundo de la tecnología.</div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+                  <div class="accordion-item fondoCards text-black mb-5">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Accordion Item #2
+                      <button class="accordion-button collapsed fondoNav text-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        ¿Que es el Testing?
                       </button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      <div class="accordion-body">El testing, en el ámbito de la tecnología y desarrollo de software, es un proceso sistemático y planificado que busca evaluar un programa, aplicación o sistema informático para descubrir errores, verificar que funcione según lo esperado y garantizar que cumpla con los requisitos y estándares de calidad previamente establecidos.
+                        <br><br>
+                        Este proceso implica la ejecución controlada del software con el objetivo de identificar defectos, fallos o discrepancias entre el comportamiento real y el comportamiento esperado. Estos errores pueden variar desde pequeñas imperfecciones que no afectan de manera significativa el rendimiento hasta problemas críticos que podrían causar un mal funcionamiento o incluso daños a los usuarios y sistemas.
+                        <br><br>
+                        El testing abarca diferentes niveles y tipos, como pruebas unitarias, de integración, de sistema y de aceptación, cada una enfocada en verificar distintos aspectos del software en diferentes etapas del ciclo de desarrollo. A través de técnicas, metodologías y herramientas especializadas, se busca no solo identificar los errores sino también comprender el comportamiento del software en diversas condiciones y escenarios, permitiendo así su corrección y mejora antes de su puesta en producción.</div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+                  <div class="accordion-item fondoCards text-black mb-5">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Accordion Item #3
+                      <button class="accordion-button collapsed fondoNav text-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        ¿Que es Testing Automatizado?
                       </button>
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      <div class="accordion-body">El testing automatizado es un enfoque en el que se utilizan herramientas y scripts de software para ejecutar pruebas de forma automatizada en aplicaciones, sistemas o componentes de software. Estas pruebas están diseñadas para verificar el comportamiento, funcionalidades y características del software de manera rápida y precisa.
+                        <br><br>
+                        En lugar de depender de pruebas manuales, que pueden ser laboriosas y propensas a errores, el testing automatizado permite a los equipos de desarrollo y QA (Quality Assurance) ejecutar un conjunto predefinido de pruebas de forma automática. Estas pruebas pueden abarcar desde pruebas unitarias a pruebas de integración, pruebas de regresión y más.
+                        <br><br>
+                        Al automatizar estas pruebas, se logra una mayor eficiencia y rapidez en la detección de errores o fallos de funcionalidad, lo que permite una iteración más ágil y un desarrollo más veloz. Además, el testing automatizado mejora la cobertura de pruebas, garantizando que una amplia gama de escenarios sea evaluada de manera sistemática. Sin embargo, es importante destacar que la automatización no reemplaza por completo las pruebas manuales, sino que complementa y optimiza el proceso global de aseguramiento de la calidad del software.</div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+                  <div class="accordion-item fondoCards text-black">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#AcordeonCuatro" aria-expanded="false" aria-controls="AcordeonCuatro">
-                        Accordion Item #3
+                      <button class="accordion-button collapsed fondoNav text-black" type="button" data-bs-toggle="collapse" data-bs-target="#AcordeonCuatro" aria-expanded="false" aria-controls="AcordeonCuatro">
+                        ¿Que es la Programación?
                       </button>
                     </h2>
                     <div id="AcordeonCuatro" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      <div class="accordion-body">La programación es un proceso creativo y lógico que implica escribir, diseñar y organizar un conjunto de instrucciones en un lenguaje de programación, con el propósito de que una computadora o sistema informático realice tareas específicas y funcionalidades según las reglas y la lógica predefinidas. Estas instrucciones, también conocidas como código fuente, están compuestas por algoritmos que indican el flujo y la manipulación de datos para lograr un resultado deseado.
+                        <br><br>
+                        Los programadores utilizan una variedad de lenguajes de programación, cada uno con sus propias sintaxis y reglas, para crear aplicaciones, software, sitios web y sistemas diversos. Este proceso implica analizar problemas, diseñar soluciones, traducir las ideas en un formato comprensible por la computadora y optimizar el código para obtener un rendimiento eficiente.
+                        <br><br>
+                        La programación no solo se centra en la escritura de código, sino que también involucra fases esenciales como la planificación, el diseño, la depuración, la documentación y el mantenimiento del software. La habilidad para programar es fundamental en la era digital actual, ya que permite automatizar procesos, resolver problemas, mejorar la eficiencia y contribuir al avance tecnológico en diversas áreas de la vida cotidiana y empresarial.</div>
                     </div>
                   </div>
                 </div>
@@ -437,7 +455,7 @@
           </div>
         </div>
         </div>
-        <div class="col">
+        <div class="col" id="contactanos">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
             data-bs-whatever="@mdo">Contactanos</button>
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -477,13 +495,26 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          LinkedIn
+        <div class="col" >
+          <a class="nav-link active text-light" aria-current="page" href="#quienes_somos">Quienes Somos</a>
         </div>
         <div class="col">
-          GitHub
+          <a class="nav-link active text-light" aria-current="page" href="#que-hacemos">Que Hacemos</a>
+        </div>
+        <div class="col">
+          <a class="nav-link active text-light" aria-current="page" href="#sobre-nosotro">Sobre Nosotros</a>
+        </div>
+        <div class="col">
+          <a class="nav-link active text-light" aria-current="page" href="#testing">Guias</a>
         </div>
       </div>
+    </div>
+    <h5 class="text-center mt-4">Create by Braulio Boada</h5>
+    <div>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/braulio-boada/" target="_blank"><img src="assets/img/linkedin.svg" class="rSocial mb-3"></a></li>
+        <li><a href="https://github.com/braulioboada/" target="_blank"><img src="assets/img/github.svg" class="rSocial mb-3"></a></li>
+    </ul>
     </div>
   </footer>
 </body>

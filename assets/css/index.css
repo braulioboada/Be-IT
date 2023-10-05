@@ -14,5 +14,16 @@
 .fondoCards {
     background: rgb(12,217,218);
     background: radial-gradient(circle, rgba(12,217,218,0.7763480392156863) 0%, rgba(148,190,233,0.6082808123249299) 56%);
+}
+footer ul{
+    position: relative;
+    text-align: center;
+}
 
+footer li {
+    display: inline;
+}
+
+.rSocial {
+    width: 2%;
 }
